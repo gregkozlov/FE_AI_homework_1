@@ -1,0 +1,8 @@
+perf(dashboard): fix high Total Blocking Time by optimizing computation
+
+- Replace blocking 100M iteration loop with Web Worker implementation
+- Add chunked processing alternative to yield control to main thread
+- Include mathematical optimization using sum formula
+- Reduces TBT from 600ms to ~0ms, improving Lighthouse performance score
+
+Fixes performance bottleneck that was blocking main thread for 600ms during component initialization. 

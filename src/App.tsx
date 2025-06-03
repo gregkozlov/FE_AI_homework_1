@@ -1,4 +1,4 @@
-import { PricingCard } from "./PricingCard";
+import { PricingCard } from "./Task_1/PricingCard";
 
 function App() {
   return (
