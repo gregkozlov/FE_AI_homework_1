@@ -1,5 +1,5 @@
 function App() {
-  return <>cleanup</>;
+  return <></>;
 }
 
 export default App;
